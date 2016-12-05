@@ -1,0 +1,8 @@
+/MANIFEST.in
+/PKG-INFO
+/README.rst
+/setup.cfg
+/setup.py
+/django_passwords.egg-info/
+/passwords/
+/.pybuild/

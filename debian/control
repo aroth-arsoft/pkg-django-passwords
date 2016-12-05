@@ -1,0 +1,25 @@
+Source: django-passwords
+Section: admin
+Priority: optional
+Maintainer: Andreas Roth <aroth@arsoft-online.com>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9), dh-python, python (>= 2.7), python3 (>= 3.4),
+ python-setuptools, python3-setuptools
+X-Python-Version: >=2.7
+X-Python3-Version: >=2.4
+
+Package: python-django-passwords
+Section: python
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Description: password form field for Django
+ A Django reusable app that provides validators and a form field
+ that checks the strength of a password
+
+Package: python3-django-passwords
+Section: python
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: password form field for Django
+ A Django reusable app that provides validators and a form field
+ that checks the strength of a password
